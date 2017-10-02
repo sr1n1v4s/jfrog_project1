@@ -15,18 +15,17 @@
     </modules>
 
     <distributionManagement>
-       <repository>
-            <id>central</id>
-            <name>devops-releases</name>
-            <url>http://192.168.1.5:8081/artifactory/jfrog_project1</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>devops-snapshots</name>
-            <url>http://192.168.1.5:8081/artifactory/jfrog_project1</url>
-        </snapshotRepository>
-    </distributionManagement>
-
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-38-141-releases</name>
+        <url>http://34.213.24.12:8081/artifactory/jfrog</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-38-141-snapshots</name>
+        <url>http://34.213.24.12:8081/artifactory/jfrog</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
